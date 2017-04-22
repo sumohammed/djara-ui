@@ -20755,7 +20755,13 @@ var Home = function (_React$Component) {
 						_react2.default.createElement(
 							'p',
 							null,
-							'An online\xA0platform\xA0and\xA0service\xA0provision\xA0company\xA0that\xA0connect, guides and mentors\xA0individuals\xA0to\xA0obtain\xA0opportunities\xA0worldwide'
+							'An online\xA0platform\xA0and\xA0service\xA0',
+							_react2.default.createElement('br', null),
+							'provision\xA0company\xA0that\xA0connect,',
+							_react2.default.createElement('br', null),
+							' guides and mentors\xA0individuals\xA0',
+							_react2.default.createElement('br', null),
+							'to\xA0obtain\xA0opportunities\xA0worldwide'
 						)
 					)
 				),

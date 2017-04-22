@@ -688,41 +688,41 @@ HOME
   word-break: break-all; }
 
 .slider div h2 {
-  padding: 150px 0px; }
+  padding: 150px 0px 50px 0px; }
 
 .slider div p {
   width: 80%;
   margin: 0px auto;
   font-size: 20px;
-  word-break: break-word; }
+}
 
 @keyframes backgroundImage {
   0% {
-    background-image: url(assets/s1.jpg);
+    background-image: url(assets/n1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   25% {
-    background-image: url(assets/s3.jpg);
+    background-image: url(assets/n3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   50% {
-    background-image: url(assets/s4.jpg);
+    background-image: url(assets/n4.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   75% {
-    background-image: url(assets/s2.jpg);
+    background-image: url(assets/n2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   100% {
-    background-image: url(assets/s1.jpg);
+    background-image: url(assets/n1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
