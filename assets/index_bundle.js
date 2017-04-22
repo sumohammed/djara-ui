@@ -20472,7 +20472,7 @@ var Header = function (_React$Component) {
 										_react2.default.createElement(
 												'a',
 												null,
-												'MENTORSHIP'
+												'SERVICES'
 										)
 								)
 						);
@@ -20755,29 +20755,77 @@ var Home = function (_React$Component) {
 						_react2.default.createElement(
 							'p',
 							null,
-							'jdkjnskjsd'
+							'An online\xA0platform\xA0and\xA0service\xA0provision\xA0company\xA0that\xA0connect, guides and mentors\xA0individuals\xA0to\xA0obtain\xA0opportunities\xA0worldwide'
 						)
 					)
 				),
 				_react2.default.createElement(
 					'div',
-					{ className: 'students' },
+					{ className: 'features' },
 					_react2.default.createElement(
 						'div',
-						null,
+						{ className: 'layer' },
 						_react2.default.createElement(
-							'h3',
-							null,
-							'SHS STUDENTS'
+							'div',
+							{ className: 'content' },
+							_react2.default.createElement(
+								'p',
+								null,
+								'Browse through vast wonderful opportunities on our platform to find what meets your needs.'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'title' },
+							_react2.default.createElement(
+								'h3',
+								null,
+								'EXPLORE'
+							)
 						)
 					),
 					_react2.default.createElement(
 						'div',
-						null,
+						{ className: 'layer' },
 						_react2.default.createElement(
-							'h3',
-							null,
-							'UNIVERSITY STUDENTS'
+							'div',
+							{ className: 'title' },
+							_react2.default.createElement(
+								'h3',
+								null,
+								'REQUEST'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'content' },
+							_react2.default.createElement(
+								'p',
+								null,
+								'Request for an opportunity tailored to meet your requirements and needs.'
+							)
+						)
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'layer' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'content' },
+							_react2.default.createElement(
+								'p',
+								null,
+								'We provide consultancy services for individual subscribers and institutions to access, process and secure chosen scholarships.'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'title' },
+							_react2.default.createElement(
+								'h3',
+								null,
+								'SERVICES'
+							)
 						)
 					)
 				)
@@ -20787,6 +20835,16 @@ var Home = function (_React$Component) {
 
 	return Home;
 }(_react2.default.Component);
+
+// <div className="students">
+// 				<div>
+// 					<h3>SHS STUDENTS</h3>
+// 				</div>
+// 				<div>
+// 					<h3>UNIVERSITY STUDENTS</h3>
+// 				</div>
+// 			</div>
+
 
 exports.default = Home;
 

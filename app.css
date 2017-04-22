@@ -663,8 +663,9 @@ header nav a {
   font-size: 14px; }
 
 header nav a:hover {
-  color: white;
-  padding: 0px 10px; }
+  color: #cccccc;
+  padding: 0px 10px;
+  transition: 1s; }
 
 /*
 =================================
@@ -675,43 +676,53 @@ HOME
   animation: backgroundImage 25s infinite ease-in-out;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 90vh; }
+  height: 100vh; }
 
 .slider div {
   width: 30%;
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
   height: 100%;
-  padding: 100px 30px;
-  color: white; }
+  color: white;
+  text-align: center;
+  word-break: break-all; }
+
+.slider div h2 {
+  padding: 150px 0px; }
+
+.slider div p {
+  width: 80%;
+  margin: 0px auto;
+  font-size: 20px;
+  word-break: break-word; }
 
 @keyframes backgroundImage {
   0% {
-    background-image: url(assets/one.jpg);
+    background-image: url(assets/s1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   25% {
-    background-image: url(assets/two.jpg);
+    background-image: url(assets/s3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   50% {
-    background-image: url(assets/three.jpg);
+    background-image: url(assets/s4.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   75% {
-    background-image: url(assets/four.jpg);
+    background-image: url(assets/s2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   100% {
-    background-image: url(assets/five.jpg);
+    background-image: url(assets/s1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -731,6 +742,36 @@ HOME
   padding: 100px 0px;
   font-size: 25px;
   letter-spacing: 2px; }
+
+.features {
+  width: 100%; }
+
+.features .layer {
+  width: 100%; }
+
+.features .layer .content {
+  width: 50%;
+  display: inline-block;
+  word-break: break-all; }
+
+.features .layer .content p {
+  width: 80%;
+  margin: 0px auto;
+  font-size: 20px;
+  word-break: break-word;
+  letter-spacing: 1px; }
+
+.features .layer .title {
+  width: 50%;
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 200px 0px;
+  text-align: center; }
+
+.features .layer .title h3 {
+  margin: 0px;
+  letter-spacing: 1px; }
 
 /*
 =================================
@@ -758,7 +799,7 @@ footer {
 
 footer .message {
   width: 80%;
-  margin: 0px auto;
+  margin: 40px auto;
   display: inline-block;
   vertical-align: top;
   text-align: left; }
