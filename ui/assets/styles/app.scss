@@ -374,8 +374,20 @@ PRODUCT
   padding: 30px 0px;
 }
 
+.product .details .price p {
+  font-size: 20px;
+  display: inline-block;
+}
+
 .product .details .price h5 {
   font-size: 20px;
+  margin: 0px 5px;
+  display: inline-block;
+}
+
+.product .details .price span {
+  font-size: 20px;
+  margin: 0px 5px;
 }
 
 .product .details button {
@@ -430,10 +442,10 @@ CHECKOUT
   text-align: center;
 }
 
-.checkout .item .name, .checkout .item .quantity, .checkout .item .clear {
-  width: 33.33%;
+.checkout .item .name, .checkout .item .quantity, .checkout .item .price,.checkout .item .clear {
+  width: 25%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: super;
 }
 
 .checkout .item .clear i {
